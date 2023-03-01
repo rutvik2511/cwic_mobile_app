@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "622600009602",
+    "project_id": "cwicsecond",
+    "storage_bucket": "cwicsecond.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622600009602:android:ab05f8f47b0e627115019b",
+        "android_client_info": {
+          "package_name": "com.example.cwic_second"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622600009602-2pqqp9u5ptid1cg041kkipfdbd96cjgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfEzR0ux-DLDMnBt--NN1T2r7CiHZK6Ec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622600009602-2pqqp9u5ptid1cg041kkipfdbd96cjgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

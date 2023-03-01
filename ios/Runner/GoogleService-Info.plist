@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>622600009602-1fpp0af5romp01qf57slqdkt5ee618lg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.622600009602-1fpp0af5romp01qf57slqdkt5ee618lg</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>622600009602-o1kiro39pmtf6ojjca0mnja51b13p8vj.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAGQYQn9qQmkrHYahlTDy2pOQJ8FTd_5hI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>622600009602</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.cwicSecond</string>
+	<key>PROJECT_ID</key>
+	<string>cwicsecond</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cwicsecond.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:622600009602:ios:eb6df9e7a5c10e3715019b</string>
+</dict>
+</plist>

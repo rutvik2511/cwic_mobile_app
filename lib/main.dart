@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       theme: ThemeData(
-        primaryColor: ConstColor.redError,
+        primaryColor: ConstColor.primary,
         fontFamily: "Poppins",
       ),
       debugShowCheckedModeBanner: false,

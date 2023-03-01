@@ -4,7 +4,6 @@ import 'package:http/http.dart' as http;
 class LoginController extends GetxController {
   final Rx<TextEditingController> email = TextEditingController().obs;
   final Rx<TextEditingController> password = TextEditingController().obs;
-  late var emailString = email.value.text;
 
   void sendLoginData(context) async {
     final MainScreenController controller = Get.put(MainScreenController());

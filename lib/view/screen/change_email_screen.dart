@@ -12,11 +12,11 @@ class ChangeEmailScreen extends StatefulWidget {
 class _ChangeEmailScreenState extends State<ChangeEmailScreen> {
   final ChangeEmailController controller = Get.put(ChangeEmailController());
 
-  final LoginController loginController = Get.put(LoginController());
+  final MainScreenController mainController = Get.put(MainScreenController());
 
   @override
   void initState() {
-    controller.email.value.text = loginController.emailString;
+    controller.email.value.text = mainController.userEmail!;
     super.initState();
   }
 

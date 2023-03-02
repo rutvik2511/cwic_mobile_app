@@ -29,6 +29,7 @@ dependencies:
   cloud_firestore: ^4.2.0
   shared_preferences: ^2.0.17
   google_maps_flutter: ^2.2.3
+  auto_size_text: ^3.0.0
 
 dev_dependencies:
   flutter_test:

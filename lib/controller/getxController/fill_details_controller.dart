@@ -46,7 +46,7 @@ class FillDetailsController extends GetxController {
               errorText: "Please enter languages do you speak...!",
             );
           });
-    } else if (interestedCity.value.text.isEmpty) {
+    } else if (selectedCity.isEmpty) {
       showDialog(
           context: context,
           builder: (context) {

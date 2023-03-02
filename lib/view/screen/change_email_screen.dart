@@ -1,9 +1,7 @@
-import 'dart:developer';
-
 import '../../modal/url/url.dart';
 
 class ChangeEmailScreen extends StatefulWidget {
-   const ChangeEmailScreen({Key? key}) : super(key: key);
+  const ChangeEmailScreen({Key? key}) : super(key: key);
 
   @override
   State<ChangeEmailScreen> createState() => _ChangeEmailScreenState();

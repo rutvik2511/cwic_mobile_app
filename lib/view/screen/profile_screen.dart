@@ -1,3 +1,5 @@
+import 'package:auto_size_text/auto_size_text.dart';
+
 import '../../modal/url/url.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -117,11 +119,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                       SizedBox(
                                         height: size.height * 0.001,
                                       ),
-                                      Text(
-                                        controller.userEmail.toString(),
-                                        style: textStyleW600(
-                                          size.width * 0.045,
-                                          ConstColor.blackText.withOpacity(0.6),
+                                      SizedBox(
+                                        width: size.width * 0.6,
+                                        child: AutoSizeText(
+                                          controller.userEmail.toString(),
+                                          maxLines: 1,
+                                          style: textStyleW600(
+                                            size.width * 0.045,
+                                            ConstColor.blackText.withOpacity(0.6),
+                                          ),
                                         ),
                                       ),
                                     ],
